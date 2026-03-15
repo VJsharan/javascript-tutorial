@@ -62,3 +62,5 @@ cuz they are in the same damn block
     console.log(b); //12 
     console.log(c);
 }
+*/
+
