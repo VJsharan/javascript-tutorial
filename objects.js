@@ -37,5 +37,20 @@ console.log(b); //harvard
 
 
 some reference types are objects, arrays, functions 
-*/
+
+
+function sayhello(){
+    var x = "vijayy";
+    console.log("hi "+x);
+    console.log("hi "+  y);
+}
+let y = "sharan";
+sayhello();
+
+// here what happens is that if there is x or y in the function, it will first
+ check it if within the function, if not there na then it goes outside 
+ the scope, 
+ so ie x > y in terms of priority since x is local
+this is called as LEXICAL SCOPE
+ */
 
