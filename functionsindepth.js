@@ -37,8 +37,11 @@ function div(a,b){
 function operationdeterminer(specificoperation, arg1, arg2) {
     return specificoperation(arg1, arg2);
 }
-console.log(operationdeterminer(div, 20, 5));
+console.log(operationdeterminer(div, 20, 5)); // this is a higher order function
 console.log(operationdeterminer(add,1,4));
 
 // we use that function to call the other defined functions 
 // if the said function is not defined, then it will return no refernce found
+
+
+// higher order function - any function which accepts one or more functions as its arguments or returns a function
