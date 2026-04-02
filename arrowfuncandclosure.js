@@ -40,11 +40,10 @@ x();
 // it persists in memory and reflects the latest value from its lexical scope.
 // Function + Lexical Scope == Closure
 */
-
-
-function outer(){
+// another example of closure
+function outer() {
     let count = 0;
-    function inner(){
+    function inner() {
         count++
         console.log(count)
     }
@@ -55,3 +54,6 @@ let newvar = outer()
 newvar()
 newvar()
 newvar()
+//https://youtu.be/e2fKYP_7B_Y?si=f_nS4AQ1VQtwvehN&t=3826
+
+
